@@ -1,0 +1,165 @@
+header {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../img/hill.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.upper {
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px;
+}
+
+.upper-left > img {
+  height: 32px;
+}
+
+.upper-right {
+  height: 32px;
+}
+
+.upper-right > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.upper-right > ul > li {
+  margin-left: 50px;
+}
+.upper-right > ul > li > a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
+  color: #fff;
+  padding-top: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center > h1 {
+  font-size: 120px;
+}
+
+.center > p {
+  font-size: 26px;
+  margin-top: 30px;
+}
+
+#About {
+  padding: 0 70px;
+  padding-top: 100px;
+}
+
+#About > h1 {
+  font-size: 40px;
+}
+
+.about-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.left img {
+  height: 300px;
+}
+
+.right {
+  margin-left: 50px;
+}
+
+.right h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+#Plan {
+  padding: 0 70px;
+  padding-top: 100px;
+}
+
+#Plan > h1 {
+  font-size: 40px;
+}
+
+.plan-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.card {
+  border: 1px solid black;
+  margin: 0 15px;
+  padding: 20px 30px;
+}
+
+.card h2 {
+  font-size: 28px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#Contact {
+  padding: 0 70px;
+  padding-top: 100px;
+}
+
+#Contact h1 {
+  font-size: 40px;
+}
+
+.contact-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+input, textarea, button {
+  border-radius: 5px;
+}
+
+input, textarea {
+  width: 40%;
+  font-size: 23px;
+  margin-bottom: 18px;
+  padding: 3px 12px;
+}
+
+button {
+  width: 140px;
+  height: 60px;
+  font-size: 23px;
+  padding: 7px;
+  background-color: #223644;
+  margin-top: 26px;
+  cursor: pointer;
+  color: white;
+}
+
+footer {
+  margin-top: 250px;
+  /* height: 70px; */
+  background-color: #223644;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
